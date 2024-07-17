@@ -1,0 +1,91 @@
+/* Fragments.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFFF;
+  color: #333333;
+  margin: 10;
+  padding: 10;
+}
+
+.fragments-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.fragments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  padding: 15px;
+  background-color: #B288C0;
+  color: #FFFFFF;
+}
+
+.fragments-header h1 {
+  margin: 16px;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.new-button,
+.info-button {
+  background-color: #9A48D0;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.new-button:hover,
+.info-button:hover {
+  background-color: #7BC950;
+}
+
+.fragments-list {
+  margin-top: 90px;
+  width: 96%;
+}
+
+.fragment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #B288C0;
+  color: #000000;
+  border-radius: 16px;
+  padding: 13px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fragment-title {
+  font-weight: 800;
+}
+
+.view-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.view-icon {
+  font-size: 35px;
+}
+
+.code-block {
+  width: 100%;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+

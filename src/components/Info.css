@@ -1,0 +1,53 @@
+/* Info.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.info-container {
+  min-height: 95%; /*le conteneur prend toute la hauteur disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.info-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #7BC950;
+  padding: 5px;
+}
+
+.app-button, .info-button {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 35px;
+}
+
+.info-button {
+  background-color: #9A48D0;
+}
+
+.info-content {
+  text-align: center;
+}
+
+.info-content h2 {
+  color: #000000;
+}
+
+.texte-info {
+  color: rgb(0, 0, 0);
+  transform: translateY(14px); /* Déplace l'élément vers le bas */
+  font-weight: 500;
+}
